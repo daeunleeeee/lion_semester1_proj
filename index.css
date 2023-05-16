@@ -1,0 +1,41 @@
+.container {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#letter {
+  margin-bottom: 30px;
+  width: 250px;
+  height: 300px;
+}
+
+.can {
+  position: absolute;
+  width: 286px;
+  height: 430px;
+  top: 415px;
+  padding: 10px;
+  background-image: url("media/trashcan.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#can1 {
+  left: 327px;
+}
+
+#can2 {
+  left: 654px;
+}
+
+#can3 {
+  left: 981px;
+}
+
+#can4 {
+  left: 1307px;
+}
