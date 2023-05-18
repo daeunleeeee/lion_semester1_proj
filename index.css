@@ -19,23 +19,45 @@
   height: 430px;
   top: 415px;
   padding: 10px;
-  background-image: url("media/trashcan.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #can1 {
   left: 327px;
+  background-image: url("media/can1.png");
 }
 
 #can2 {
   left: 654px;
+  background-image: url("media/can2.png");
 }
 
 #can3 {
   left: 981px;
+  background-image: url("media/can3.png");
 }
 
 #can4 {
   left: 1307px;
+  background-image: url("media/can4.png");
+}
+
+#button {
+  display: none;
+  margin: 100px auto;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  border-radius: 150px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  box-shadow: 0 14px 0 grey;
+  text-decoration: none;
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+  justify-content: flex-start;
 }

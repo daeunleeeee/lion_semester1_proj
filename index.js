@@ -17,6 +17,7 @@ function drop(ev) {
     if (opacity <= 0) {
       clearInterval(intervalId);
       draggedImage.style.display = "none";
+      document.getElementById("button").style.display = "block";
     } else {
       opacity -= 0.1;
       draggedImage.style.opacity = opacity;
