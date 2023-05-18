@@ -12,6 +12,11 @@
   height: 200px;
   margin-top: 30px;
   margin-bottom: 30px;
+  transition: all 0.2s linear;
+}
+
+#letter:hover {
+  transform: scale(1.2);
 }
 
 .can {
